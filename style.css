@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background: linear-gradient(45deg, rgba(10,72,226,1) 41%, rgba(250,11,164,0.71) 66%);*/
+}
+
+.container {
+  border-radius: 5px;
+  height: 510px;
+  width: 250px;
+  box-shadow: 6px 6px 10px silver, 6px 6px 12px white;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+}
+.upper {
+  height: 39%;
+  background-color: #67b;
+  text-align: center;
+  color: white;
+  border-radius: 5px 5px 0 0;
+}
+
+.upper h1 {
+  padding: 15px 20px 0 10px;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  line-height: 1.1;
+}
+
+.upper p {
+  font-size: 0.5rem;
+  font-weight: thin;
+  margin: 5px 15px;
+}
+
+.upper h6 {
+  font-size: 0.6rem;
+  font-weight: 200;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.upper button {
+  border-radius: 30px;
+  border: 1px solid transparent;
+  margin-bottom: px;
+  font-size: 10px;
+  padding: 3px;
+}
+
+.facebook {
+  background-color: rgb(70, 50, 150);
+  width: 50px;
+}
+
+.twitter {
+  background-color: rgb(30, 144, 255);
+  color: white;
+  padding: 15px 0; /*rem to check this out*/
+  margin-left: 5px;
+}
+
+a {
+  color: white;
+  text-decoration-color: white;
+}
+
+a:hover .twitter {
+  background-color: rgba(30, 144, 255, 0.7);
+}
+
+button:hover {
+  background-color: blue;
+  border: 1px solid transparent;
+  /* margin */
+}
+
+.lower {
+  height: 290px;
+  background-color: white;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+}
+
+.lower h1 {
+  padding: 20px;
+}
+
+.lower p {
+  margin: 0 10px;
+  font-size: 0.5rem;
+  color: #ccc;
+}
+
+p a {
+  color: blue;
+  text-decoration-color: blue;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #aaa;
+  margin: 15px 0 5px 10px;
+  outline: none;
+  width: 220px;
+  background-color: transparent;
+}
+
+.txt_pass:hover {
+  box-shadow: 0 1px 4px 0 #67b, 0 1px 2px 0 #ccc;
+  height: 20px;
+  width: 220px;
+}
+
+.txt_pass:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+.checkbox {
+  float: left;
+  width: auto;
+  margin: 15px 0 0 10px;
+}
+
+button[type="submit"] {
+  margin-top: 40px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  color: white;
+  background: linear-gradient(
+    45deg,
+    rgba(85, 250, 24, 1) 81%,
+    rgba(27, 189, 11, 1) 95%
+  );
+  box-shadow: 2px 2px 5px #32cd32;
+  padding: 2px 15px 2px 15px;
+}
+
+.rem_me {
+  font-size: 0.5rem;
+}
+
+/*.bottom{
+background-color:green;
+  padding-bottom:45px;
+  margin-top:15px;
+}*/
+/**div label{
+  display:relative;
+  margin-bottom:10px;
+  float:right;
+}
+.checkbox {
+  display:absolute;
+  left:50px;
+  
+}
+
+
+
+
+
+label {
+  text-align: left;
+}
+**/
